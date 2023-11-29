@@ -1,0 +1,111 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: "Inter", sans-serif;
+}
+
+.log-in {
+    background: url("../../assets/image-12.png") no-repeat center center;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100%;
+    color: white;
+    padding: 35.5px;
+}
+
+.inicia-sesi-n {
+    font-weight: 900;
+    font-size: 28px;
+    margin-top: 20px;
+    text-align: left;
+}
+
+.frame-41,
+.frame-42,
+.frame-43,
+.frame-422 {
+    background: #2c373d;
+    border-radius: 30px;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    padding: 10px;
+    margin-top: 10px;
+}
+
+.entrar-con-correo-electr-nico,
+.iniciar-sesi-n-con-apple,
+.iniciar-sesi-n-con-facebook,
+.iniciar-sesi-n-con-google {
+    display: flex;
+    align-items: center;
+    color: white;
+    font-weight: 500;
+    font-size: 18px;
+}
+
+.solar-letter-bold,
+.ic-baseline-apple,
+logos-facebook,
+.devicon-google {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    margin-right: 10px;
+}
+.logos-facebook {
+    width: 24px;
+    height: 24px;
+    fill: white;
+    margin-right: 10px; /* Espacio entre el icono y el texto */
+    margin-left: 0; /* Ajusta el margen izquierdo según sea necesario */
+}   
+
+.si-eres-menor-de-edad-necesitaremos-autorizaci-n-de-tu-padre-madre-tutor-a-para-crear-una-cuenta {
+    font-weight: 700;
+    font-size: 18px;
+    margin-top: 67.5px;
+    margin-bottom: 67.5px;
+    text-align: center;
+}
+
+.frame-44 {
+    background: #f5f4f0;
+    border-radius: 0;
+    padding: 10px 0;
+    margin-top: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.aviso-de-privacidad,
+.t-rminos-y-condiciones {
+    color: #5faba2;
+    font-weight: 700;
+    font-size: 14px;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.frame-45 {
+    display: none;
+}
+
+/* Utiliza media queries para ajustar estilos en dispositivos móviles */
+@media (max-width: 600px) {
+    .inicia-sesi-n {
+        font-size: 24px;
+    }
+    
+    .entrar-con-correo-electr-nico,
+    .iniciar-sesi-n-con-apple,
+    .iniciar-sesi-n-con-facebook,
+    .iniciar-sesi-n-con-google {
+        font-size: 16px;
+    }
+    
+    /* Ajusta otros estilos según sea necesario */
+}
